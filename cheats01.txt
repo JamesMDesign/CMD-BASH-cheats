@@ -1,0 +1,98 @@
+command line commands (cmd)
+
+
+ipconfig (lists ip / network stuff)
+
+dir (lists all folders / files)
+dir /a:h (shows hidden files / folders)
+
+cd  (changes your current directory)
+cd .. - takes you back one folder
+cd ../../ (goes back more folders)
+
+cls (clears everything)
+
+mkdir folder name (creates folder with a name)
+
+mv (move command)
+mv draft.txt thesis (moves to target folder)
+mv draft.txt .. (move back one folder)
+
+rmdir foldername (removes the folder)
+
+echo > testing.txt (ways to create files)
+type nul >> myfile.txt (ways to create files)
+
+git init (initialise repository)
+git status (gives you the repo status)
+git add myfile.txt (commits the file to the repo)
+git commit -m "this is my file comment"
+git checkout -b branch-name (creates new branch)
+git checkout main (takes you to main branch)
+git checkout (switches branch)
+git branch (gives current branch)
+git remote add origin https://github.com/JamesMDesign/new_repo_01.git (adds our repo to the address)
+git remote (feeds back origin)
+git push -u origin main (pushes the specified branch to the origin)
+git remote rm origin01 (removes an origin)
+git clone https://github.com/JamesMDesign/CMD-BASH-cheats.git (clones a repo)
+
+del yourfile.txt (deletes your file)
+rmdir /s .git
+
+
+///////////////
+
+
+bash commands
+
+dir (lists all folders in current directory)
+
+pwd (prints current directory)
+
+ls -f (lists all directories)
+ls --help (help file)
+ls -a (view hidden files)
+
+clear - clears everything
+
+cd (change directory) / 
+cd .. (goes back one folder)
+cd ../../ (goes back more folders)
+
+nano draft.txt (creates nano document you can input from vscode)
+
+mv (move command)
+mv draft.txt thesis (moves to target folder)
+mv draft.txt .. (move back one folder)
+
+mkdir foldername (creates folder with specified name)
+
+rm filename (removes the file)
+rmdir foldername (removes the folder)
+
+
+git init (initialises new git repo)
+git status (gives you the repo status)
+git add myfile.txt (commits the file to the repo)
+git commit -m "this is my file comment"
+git checkout -b branch-name (creates new branch)
+git checkout main (takes you to main branch)
+git checkout (switches branch)
+git branch (gives current branch)
+git remote add origin https://github.com/JamesMDesign/new_repo_01.git (adds our repo to the address)
+git remote (feeds back origin)
+git push -u origin main (pushes the specified branch to the origin)
+git clone https://github.com/JamesMDesign/CMD-BASH-cheats.git (clones a repo)
+
+rm -rf .git (removes git repo)
+
+git remote rm origin01 (removes an origin)
+
+
+how to access folders with namespaces
+
+cd profile\ pics
+cd 'folder with spaces'
+
+///////////////
